@@ -1,77 +1,22 @@
 html,
-body {font-family: "Shippori Mincho",'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+body {
+    font-family: "Shippori Mincho", 'Yu Mincho Light', 'YuMincho', 'Yu Mincho', '游明朝体', 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', sans-serif;
     padding: 0;
     margin: 0;
 }
 
-/* スライダー */
-#imgslide {
-    display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
 }
 
-#imgslide::-webkit-scrollbar {
-    display: none;
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #8a7355;
 }
 
-/* 各スライド */
-.slidecontent {
-    flex: 0 0 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    scroll-snap-align: start;
-    box-sizing: border-box;
-}
-
-/* 画像共通 */
-.slidecontent img {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-/* PC */
-@media (min-width: 1024px) {
-    main {
-        height: calc(100vh - 80px);
-    }
-
-    #imgslide {
-        height: 100%;
-    }
-
-    .slidecontent {
-        height: 100%;
-    }
-
-    .slidecontent img {
-        height: 100%;
-        width: auto;
-    }
-}
-
-/* タブレット・スマホ */
-@media (max-width: 1023px) {
-    main {
-        height: auto;
-    }
-
-    #imgslide {
-        height: auto;
-    }
-
-    .slidecontent {
-        height: auto;
-    }
-
-    .slidecontent img {
-        width: 100%;
-        height: auto;
-    }
+h2 {
+    font-size: 24px;
+    font-weight: 400;
 }
