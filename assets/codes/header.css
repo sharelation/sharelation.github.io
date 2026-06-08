@@ -37,6 +37,37 @@ nav{
     border-left: 1px solid #8a7355;
 }
 
+#navancher > a {
+    font-size: 18px;
+    text-shadow:
+        3px 3px 3px rgba(138, 115, 85, 0),
+       -3px -3px 3px rgba(138, 115, 85, 0),
+       -3px 3px 3px rgba(138, 115, 85, 0),
+        3px -3px 3px rgba(138, 115, 85, 0),
+        3px 0px 3px rgba(138, 115, 85, 0),
+       -3px 0px 3px rgba(138, 115, 85, 0),
+        0px 3px 3px rgba(138, 115, 85, 0),
+        0px -3px 3px rgba(138, 115, 85, 0);
+
+    transition:
+        font-size 0.3s ease,
+        text-shadow 0.3s ease;
+}
+
+#navancher > a:hover {
+    font-size: 20px;
+    text-shadow:
+        3px 3px 3px rgba(138, 115, 85, 0.3),
+       -3px -3px 3px rgba(138, 115, 85, 0.3),
+       -3px 3px 3px rgba(138, 115, 85, 0.3),
+        3px -3px 3px rgba(138, 115, 85, 0.3),
+        3px 0px 3px rgba(138, 115, 85, 0.3),
+       -3px 0px 3px rgba(138, 115, 85, 0.3),
+        0px 3px 3px rgba(138, 115, 85, 0.3),
+        0px -3px 3px rgba(138, 115, 85, 0.3);
+}
+
+
 @media (min-width: 1024px) {
     #navancher > a:last-child{
         border-left: 1px solid #8a7355;
