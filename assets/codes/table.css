@@ -22,10 +22,14 @@ table {
     }
 }
 
-#history th {
-    text-align: right;
+#history th, #history td {
     color: #000;
     margin: 40px 0px 0px 30px;
+    border-bottom: #8a7355 dotted 2px;
+}
+
+#history th {
+    text-align: right;
     padding: 10px 0;
     width: 65px;
     font-weight: 400;
@@ -33,8 +37,6 @@ table {
 
 #history td {
     text-align: midele;
-    color: #000;
-    margin: 40px 0px 0px 30px;
     padding: 10px 0;
 }
 
