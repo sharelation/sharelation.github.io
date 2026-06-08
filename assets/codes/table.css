@@ -28,6 +28,10 @@ table {
     border-bottom: #8a7355 dotted 2px;
 }
 
+#history tr:last-child > th, #history tr:last-child > td {
+    border-bottom: none;
+}
+
 #history th {
     text-align: right;
     padding: 10px 0;
