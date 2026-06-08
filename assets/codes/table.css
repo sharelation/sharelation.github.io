@@ -10,10 +10,15 @@ table {
     border-right: 10px solid #8a7355;
     border-bottom: 7px solid #A18F76;
 }
-@media (min-width: 701px) {
+@media (min-width: 771px) {
     table {
         margin-left: calc(50% - 350px);
         font-size: 16px;
+    }
+}
+@media (max-width: 770px) {
+    table {
+        font-size: 14px;
     }
 }
 
@@ -22,7 +27,7 @@ table {
     color: #000;
     margin: 40px 0px 0px 30px;
     padding: 10px 0;
-    width: 85px;
+    width: 65px;
     font-weight: 400;
 }
 

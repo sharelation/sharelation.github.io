@@ -70,7 +70,7 @@ nav{
 
 @media (min-width: 1024px) {
     #navancher > a:last-child{
-        border-left: 1px solid #8a7355;
+        border-right: 1px solid #8a7355;
     }
 }
 
