@@ -41,7 +41,7 @@ table {
 
 #history td {
     text-align: midele;
-    padding: 10px 0;
+    padding: 10px 0 10px 10px;
 }
 
 .ancher {
@@ -50,8 +50,8 @@ table {
     color: #000;
     background-color: #fff;
     border: #8a7355 1px double;
-    border-radius: 10px;
-    padding: 3px;
+    border-radius: 15px;
+    padding: 5px;
     margin: 3px;
 
     transition:

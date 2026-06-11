@@ -32,7 +32,3 @@ addEventListener("click", (e) => {
         navopen = !navopen;
     }
 });
-
-async function opennav() {
-    
-}
