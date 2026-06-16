@@ -1,4 +1,4 @@
-const header = document.querySelector("header");
+let header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
     headercolor();
