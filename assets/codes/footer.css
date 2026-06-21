@@ -1,8 +1,28 @@
 footer{
-    height: 80px;
     display: flex;
+    flex-direction: column;
+    height: 80px;
     background: #8a7355;
     color: #fff;
-    justify-content: right;
-    align-items: flex-end;
+    font-size: 14px;
+}
+
+@media (max-width: 425px) {
+    footer {
+        font-size: 12px;
+    }
+}
+
+footer > p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+footer > p:first-child {
+    text-align: left;
+}
+footer > p:last-child {
+    margin-top: auto;
+    text-align: right;
 }

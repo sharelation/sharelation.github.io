@@ -1,0 +1,65 @@
+h4 {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 0;
+    margin: 6px 0;
+}
+
+#timetree {
+    padding-left: calc((100% - 1050px) / 2);
+}
+#timetree > div {
+    padding-left: 26.5px;
+    margin-left: 23.5px;
+    border-left: 9px #8a7355 double;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+#timetree > div > p {
+    font-size: 20px;
+    display: inline-block;
+    width: 484px;
+}
+#timetree > div > figure {
+    padding: 0;
+    margin: 0 0 0 16px;
+    width: 500px;
+}
+#timetree > div > figure > img {
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width: 1200px) {
+    h4 {
+        margin-top: 10px;
+    }
+    #timetree {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: calc(100% - 20px);
+    }
+    #timetree > div {
+        padding: 0;
+        margin: 0;
+        border: none;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    #timetree > div > p {
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+    #timetree > div > figure {
+        margin: 0;
+        width: 100%;
+    }
+    #timetree > div > figure > img {
+        max-width: 500px;
+        width: 80%;
+        height: auto;
+    }
+}
