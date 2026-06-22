@@ -9,9 +9,9 @@ h4 {
     padding-left: calc((100% - 1050px) / 2);
 }
 #timetree > div {
-    padding-left: 26.5px;
-    margin-left: 23.5px;
-    border-left: 9px #8a7355 double;
+    padding-left: calc(50px - 25px);
+    margin-left: 25px;
+    border-left: 6px #8a7355 double;
     width: 1000px;
     display: flex;
     align-items: center;
@@ -33,6 +33,7 @@ h4 {
 
 @media (max-width: 1200px) {
     h4 {
+        font-size: 24px;
         margin-top: 10px;
     }
     #timetree {
@@ -49,6 +50,7 @@ h4 {
         text-align: center;
     }
     #timetree > div > p {
+        font-size: 16px;
         text-align: left;
         width: 100%;
         margin: 0;
