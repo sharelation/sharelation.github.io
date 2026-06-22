@@ -1,3 +1,4 @@
+let header = document.querySelector("header");
 let navopen = false;
 
 addEventListener("click", (e) => {
